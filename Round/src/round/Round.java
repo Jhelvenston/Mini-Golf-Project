@@ -16,26 +16,29 @@ public class Round
        //cuurentScore method will calculate the players total score so far
        //(above or below par).
        
+       //above par - anything above the maximum number of attempts on a hole
+       
+       //below par - anything below the minimum number of attempts on a hole
        
        return 0;
    }
    
    public int numberOfHolesPlayed()
    {
-       //This method will need to calculate how many holes have been played,
-       //but also make sure no holes have been skipped?....
+       //This method will need to calculate how many holes have been played
        
        return 0;
    }
    
    public void enterScore(int strokes)
    {
-       //This method will take in a score for the next hole.
-       //So what ever score a player has at then end of the whole will be input here.
-       //No holes can be skipped and they must all be played in order.
+       //this method takes in 'int strokes' which is the number of times
+       //a player took to make the ball in.
        
-       //For each player, each time the ball is hit without making it in:
-       //1 point will be added until the ball has landed in the hole.
+       //numberOfSwings is storing total attempts for 1 hole.
+       int numberOfSwings = strokes;
+       
+       
        
    }
    
