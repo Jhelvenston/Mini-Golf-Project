@@ -13,11 +13,18 @@ public class Round
 {
    public int currentScore()
    {
+       //cuurentScore method will calculate the players total score so far
+       //(above or below par).
+       
+       
        return 0;
    }
    
    public int numberOfHolesPlayed()
    {
+       //This method will need to calculate how many holes have been played,
+       //but also make sure no holes have been skipped?....
+       
        return 0;
    }
    
