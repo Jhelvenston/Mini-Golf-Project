@@ -5,12 +5,15 @@
  */
 package minigolf;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Dan
  */
 public class Round {
 
+    int scoreInput=0;
     /**
      * @param args the command line arguments
      */
@@ -24,5 +27,22 @@ public class Round {
         int score=0;
         
         return score;
+    }
+    
+    public int numberOfHolesPlayed(){
+        int holesPlayed=0;
+        
+        return holesPlayed;
+    }
+    
+    public void enterScore(int strokes){
+        int scoreInput=0;
+          
+    }
+    
+    int[] scoreDetail(){
+        int[] strokesPerHole = null;
+        
+        return strokesPerHole;
     }
 }
