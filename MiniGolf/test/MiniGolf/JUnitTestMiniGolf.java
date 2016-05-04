@@ -38,13 +38,15 @@ public class JUnitTestMiniGolf {
     public void tearDown() {
     }
     
-     @Test
-    public void testPadLegalInputs(){
-        
+    @Test 
+    public void testPadLegalInputs(){//should pass
+       Round r = new Round();
+       r.enterScore=3;
     } 
     
-    @Test
+    @Test ()
     public void testPadIllegalInputs(){
+        
         
     }
 
