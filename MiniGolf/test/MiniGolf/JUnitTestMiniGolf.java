@@ -40,14 +40,14 @@ public class JUnitTestMiniGolf {
     
     @Test 
     public void testPadLegalInputs(){//should pass
-       Round r = new Round();
+       final Round r = new Round();
        r.enterScore=3;
     } 
     
     @Test ()
     public void testPadIllegalInputs(){
-        
-        
+       final Round r = new Round();
+        r.enterScore=0;  
     }
 
     // TODO add test methods here.
