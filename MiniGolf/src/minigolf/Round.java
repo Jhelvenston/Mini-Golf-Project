@@ -5,8 +5,6 @@
  */
 package minigolf;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Dan
@@ -14,8 +12,9 @@ import java.util.ArrayList;
 public class Round {
     int[] score=null;
     int scoreInput=0;
-    int[] player=null;
     short numOfPlayers=1;
+    int[] player=null;
+    int[] strokesPerHole = null; 
     
     /**
      * @param args the command line arguments
@@ -45,7 +44,7 @@ public class Round {
     }
     
     int[] scoreDetail(){
-        int[] strokesPerHole = null;
+        ;
         
         return strokesPerHole;
     }
