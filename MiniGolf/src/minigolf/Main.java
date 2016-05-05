@@ -30,4 +30,9 @@ public class Main {
         Course course = new Course();
         return course;
     }
+    
+    static int scoreSoFar(String courseName, String playerName){
+        int scoreSoFar=Round.currentScore();
+        return scoreSoFar;
+    }
 }
