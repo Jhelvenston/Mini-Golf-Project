@@ -21,6 +21,11 @@ public class Round {
      * @param args the command line arguments
      */
     
+    public static void main(String[] args) {
+    holeNumber+=1;   
+        
+        
+    }
     //This will keep track of the scores
     
     public int currentScore(){
@@ -36,6 +41,7 @@ public class Round {
     
     public void enterScore(int strokes){
         holeNumber+=1; 
+
           
     }
     
