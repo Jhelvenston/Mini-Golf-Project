@@ -11,10 +11,8 @@ package minigolf;
  */
 public class Main {
     
-    public static void main(String[] args) {  
-       
-    
-}
+    public static void main(String[] args) {    
+    }
     static Round newRound (String courseName, String playerName){
      Round round = new Round();
      
