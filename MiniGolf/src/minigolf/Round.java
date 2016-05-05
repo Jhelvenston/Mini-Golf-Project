@@ -10,42 +10,42 @@ package minigolf;
  * @author Dan
  */
 public class Round {
-    int[] score=null;
+    int score=0;
     int scoreInput=0;
     short numOfPlayers=1;
     int[] player=null;
-    int[] strokesPerHole = null; 
-    
+    int[] strokesPerHole = null;
+    static  short holeNumber=0;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    holeNumber+=1;   
+        
         
     }
     //This will keep track of the scores
     
     public int currentScore(){
-        int score=0;
-        
+        score+=scoreInput;
         return score;
     }
     
     public int numberOfHolesPlayed(){
         int holesPlayed=0;
-        
+        holesPlayed=holeNumber;
         return holesPlayed;
     }
     
     public void enterScore(int strokes){
-        int scoreInput=0;
-        score[player[numOfPlayers-1]]+=scoreInput;
+        
+        
           
     }
     
     int[] scoreDetail(){
-        ;
         
+        strokesPerHole[holeNumber]=scoreInput;
         return strokesPerHole;
     }
 }
