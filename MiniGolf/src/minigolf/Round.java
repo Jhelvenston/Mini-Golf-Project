@@ -12,8 +12,11 @@ import java.util.ArrayList;
  * @author Dan
  */
 public class Round {
-
+    int[] score=null;
     int scoreInput=0;
+    int[] player=null;
+    short numOfPlayers=1;
+    
     /**
      * @param args the command line arguments
      */
@@ -37,6 +40,7 @@ public class Round {
     
     public void enterScore(int strokes){
         int scoreInput=0;
+        score[player[numOfPlayers-1]]+=scoreInput;
           
     }
     
