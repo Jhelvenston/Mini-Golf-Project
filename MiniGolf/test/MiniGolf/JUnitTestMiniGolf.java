@@ -45,7 +45,7 @@ public class JUnitTestMiniGolf {
     } 
     
     @Test ()
-    public void testPadIllegalInputs(){
+    public void testPadIllegalInputs() {
        final Round r = new Round();
         r.enterScore=0;  
     }

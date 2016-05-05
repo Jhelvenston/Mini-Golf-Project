@@ -16,14 +16,11 @@ public class Round {
     int[] player=null;
     int[] strokesPerHole = null;
     static  short holeNumber=0;
+    final short NUM_OF_HOLES_ON_COURSE=18;
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-    holeNumber+=1;   
-        
-        
-    }
+    
     //This will keep track of the scores
     
     public int currentScore(){
@@ -38,8 +35,7 @@ public class Round {
     }
     
     public void enterScore(int strokes){
-        
-        
+        holeNumber+=1; 
           
     }
     
