@@ -21,7 +21,7 @@ public class JUnitTestMiniGolf {
     public JUnitTestMiniGolf() {
     }
     
-    @BeforeClass
+    /*@BeforeClass
     public static void setUpClass() {
     }
     
@@ -31,12 +31,12 @@ public class JUnitTestMiniGolf {
     
     @Before
     public void setUp() {
-        
+       
     }
     
     @After
     public void tearDown() {
-    }
+    }*/
     
     @Test 
     public void testPadLegalInputs(){//should pass
