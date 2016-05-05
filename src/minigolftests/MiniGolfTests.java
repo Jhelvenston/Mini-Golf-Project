@@ -17,8 +17,14 @@ public class MiniGolfTests {
 }
 
 class Round {
-    
+    int strokes = 0;
+    int[] par = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
+    int[] scoreForEachHole = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    int currentHole = 1;
+    int playerScore = 0;
+
     public int currentScore(){
+        System.out.println("Current score is currently: " + playerScore);
         return 0;
     }
     
